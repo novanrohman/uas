@@ -62,10 +62,10 @@ class latihan3 {
       System.out.println("");
   }
   public static void main(String[] args){
-      Mahasiswa data[] = {new Mahasiswa("02", "Ferdy"),
-              new Mahasiswa("01", "Agiss"),
-              new Mahasiswa("03", "Anis"),
-              new Mahasiswa("04", "Ismi")};
+      Mahasiswa data[] = {new Mahasiswa("02", "novan"),
+              new Mahasiswa("01", "anis"),
+              new Mahasiswa("03", "virgi"),
+              new Mahasiswa("04", "rani")};
       long awal = System.currentTimeMillis();
       QuickSort(data, 0, data.length-1);
       tampil(data);
